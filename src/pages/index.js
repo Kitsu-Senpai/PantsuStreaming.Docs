@@ -23,7 +23,7 @@ export default function Home() {
                 "button button--outline button--secondary button--lg",
                 styles.getStarted
               )}
-              to={"/docs/Manual/Get%20Started/CreatePlugin"}
+              to={"/docs/Docs/GraphQL/GettingStarted"}
             >
               Get Started
             </Link>

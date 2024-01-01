@@ -5,7 +5,7 @@ const config = {
   tagline: 'PantsuStreaming API Documentation',
   favicon: 'img/favicon.ico',
   url: 'https://Kitsu-Senpai.github.io',
-  baseUrl: '/PantsuStreaming/',
+  baseUrl: '/PantsuStreaming.Docs/',
   organizationName: 'PantsuStreaming',
   projectName: 'PantsuStreaming',
 

@@ -66,7 +66,7 @@ html[data-theme='dark'] code {
   background-image:
     linear-gradient(rgba(0, 0, 0, 0.1),
     rgba(0, 0, 0, 0.65)),
-    url("../../static/img/hero-boss1.png") !important;
+    url("../../static/img/hero-boss1.jpg") !important;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
