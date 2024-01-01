@@ -1,0 +1,73 @@
+/* Roboto Font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+:root {
+  --ifm-color-primary: #3DB4F2;
+  --ifm-color-primary-transparent: rgba(61, 180, 242, 0.1);
+  --ifm-color-primary-dark: #29784c;
+  --ifm-color-primary-darker: #277148;
+  --ifm-color-primary-darkest: #205d3b;
+  --ifm-color-primary-light: #33925d;
+  --ifm-color-primary-lighter: #359962;
+  --ifm-color-primary-lightest: #3cad6e;
+  --ifm-code-font-size: 95%;
+  --ifm-font-family-base: Roboto, sans-serif;
+  --ifm-h1-font-size: 2rem;
+  --ifm-h2-font-size: 1.5rem;
+  --ifm-h3-font-size: 1.25rem;
+  --ifm-h4-font-size: 1rem;
+  --ifm-h5-font-size: 0.875rem;
+  --ifm-h6-font-size: 0.85rem;
+  --ifm-font-family-headings: Roboto, 'Segoe UI';
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --doc-sidebar-width: 290px !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  word-wrap: break-word;
+  word-break: break-word;
+  font-family: var(--ifm-font-family-headings);
+}
+
+h1 {
+  font-size: 2rem !important;
+}
+
+.markdown > h2 {
+  font-size: 1.5rem !important;
+}
+
+.markdown > h3 {
+  font-size: 1.25rem !important;
+}
+
+.markdown > h4 {
+  font-size: 1rem !important;
+}
+
+html[data-theme='dark'] code {
+  background-color: #292D3E !important;
+}
+
+.button.button--secondary.button--outline:not(.button--active):not(:hover) {
+  color:rgb(255, 255, 255);
+}
+
+.menu__link {
+  font-size: 87%;
+}
+
+.menu__link--active:not(.menu__link--sublist) {
+  background-color: var(--ifm-color-primary-transparent);
+}
+
+.hero--primary {
+  --ifm-hero-text-color: rgb(255, 255, 255) !important;
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.1),
+    rgba(0, 0, 0, 0.65)),
+    url("../../static/img/hero-boss1.png") !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
